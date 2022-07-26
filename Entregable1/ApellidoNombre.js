@@ -24,6 +24,10 @@ class Usuario {
         return nombres
     }
 
+    getBooks = () => {
+        return this.libros;
+    }
+
 
 
 }    
@@ -42,3 +46,6 @@ persona.addBook('Harry Potter', 'JK Collins')
 persona.addBook('Cien años de soledad', 'Garcia Marquez')
 
 console.log(persona.getBookNames());
+
+console.log(persona);
+
