@@ -47,5 +47,7 @@ persona.addBook('Cien años de soledad', 'Garcia Marquez')
 
 console.log(persona.getBookNames());
 
-console.log(persona);
+console.log(persona)
+
+console.log(Object.values(persona));
 
